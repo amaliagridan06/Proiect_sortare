@@ -127,7 +127,7 @@ int main() {
     if (f == NULL) 
     { printf("Eroare la deschiderea fisierului!\n"); return 1; }
     int sizes[] = {10, 100, 1000, 10000}; 
-    char* types[] = {"Random", "Sorted", "Reverse", "Almost Sorted", "Plateau"};
+    char* types[] = {"Random", "Sorted", "Reverse", "Almost Sorted", "Plate"};
 
     fprintf(f, "Rezultate\n");
     for (int s = 0; s < 4; s++) {

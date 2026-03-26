@@ -1,0 +1,149 @@
+Rezultate
+
+ Dimensiune lista: 10 
+
+Tip date: Random
+BubbleSort      | N=10      | 0.00000015 s
+InsertionSort   | N=10      | 0.00000011 s
+MergeSort       | N=10      | 0.00000051 s
+QuickSort       | N=10      | 0.00000011 s
+RadixSort       | N=10      | 0.00000195 s
+
+Tip date: Sorted
+BubbleSort      | N=10      | 0.00000016 s
+InsertionSort   | N=10      | 0.00000004 s
+MergeSort       | N=10      | 0.00000051 s
+QuickSort       | N=10      | 0.00000023 s
+RadixSort       | N=10      | 0.00000040 s
+
+Tip date: Reverse
+BubbleSort      | N=10      | 0.00000029 s
+InsertionSort   | N=10      | 0.00000016 s
+MergeSort       | N=10      | 0.00000065 s
+QuickSort       | N=10      | 0.00000022 s
+RadixSort       | N=10      | 0.00000084 s
+
+Tip date: Almost Sorted
+BubbleSort      | N=10      | 0.00000015 s
+InsertionSort   | N=10      | 0.00000004 s
+MergeSort       | N=10      | 0.00000064 s
+QuickSort       | N=10      | 0.00000024 s
+RadixSort       | N=10      | 0.00000041 s
+
+Tip date: Plateau
+BubbleSort      | N=10      | 0.00000012 s
+InsertionSort   | N=10      | 0.00000009 s
+MergeSort       | N=10      | 0.00000050 s
+QuickSort       | N=10      | 0.00000011 s
+RadixSort       | N=10      | 0.00000039 s
+
+ Dimensiune lista: 100 
+
+Tip date: Random
+BubbleSort      | N=100     | 0.00001464 s
+InsertionSort   | N=100     | 0.00000499 s
+MergeSort       | N=100     | 0.00000634 s
+QuickSort       | N=100     | 0.00000178 s
+RadixSort       | N=100     | 0.00001781 s
+
+Tip date: Sorted
+BubbleSort      | N=100     | 0.00000825 s
+InsertionSort   | N=100     | 0.00000027 s
+MergeSort       | N=100     | 0.00000603 s
+QuickSort       | N=100     | 0.00001651 s
+RadixSort       | N=100     | 0.00000735 s
+
+Tip date: Reverse
+BubbleSort      | N=100     | 0.00001651 s
+InsertionSort   | N=100     | 0.00000992 s
+MergeSort       | N=100     | 0.00000661 s
+QuickSort       | N=100     | 0.00001154 s
+RadixSort       | N=100     | 0.00001075 s
+
+Tip date: Almost Sorted
+BubbleSort      | N=100     | 0.00000987 s
+InsertionSort   | N=100     | 0.00000103 s
+MergeSort       | N=100     | 0.00000616 s
+QuickSort       | N=100     | 0.00001045 s
+RadixSort       | N=100     | 0.00000730 s
+
+Tip date: Plateau
+BubbleSort      | N=100     | 0.00001247 s
+InsertionSort   | N=100     | 0.00000520 s
+MergeSort       | N=100     | 0.00000678 s
+QuickSort       | N=100     | 0.00000215 s
+RadixSort       | N=100     | 0.00000366 s
+
+ Dimensiune lista: 1000 
+
+Tip date: Random
+BubbleSort      | N=1000    | 0.00150200 s
+InsertionSort   | N=1000    | 0.00054700 s
+MergeSort       | N=1000    | 0.00015800 s
+QuickSort       | N=1000    | 0.00007100 s
+RadixSort       | N=1000    | 0.00025600 s
+
+Tip date: Sorted
+BubbleSort      | N=1000    | 0.00116800 s
+InsertionSort   | N=1000    | 0.00000300 s
+MergeSort       | N=1000    | 0.00007700 s
+QuickSort       | N=1000    | 0.00164800 s
+RadixSort       | N=1000    | 0.00010500 s
+
+Tip date: Reverse
+BubbleSort      | N=1000    | 0.00186200 s
+InsertionSort   | N=1000    | 0.00095000 s
+MergeSort       | N=1000    | 0.00008300 s
+QuickSort       | N=1000    | 0.00112800 s
+RadixSort       | N=1000    | 0.00014000 s
+
+Tip date: Almost Sorted
+BubbleSort      | N=1000    | 0.00092900 s
+InsertionSort   | N=1000    | 0.00006300 s
+MergeSort       | N=1000    | 0.00011900 s
+QuickSort       | N=1000    | 0.00019300 s
+RadixSort       | N=1000    | 0.00010600 s
+
+Tip date: Plateau
+BubbleSort      | N=1000    | 0.00151800 s
+InsertionSort   | N=1000    | 0.00042800 s
+MergeSort       | N=1000    | 0.00012000 s
+QuickSort       | N=1000    | 0.00009700 s
+RadixSort       | N=1000    | 0.00003800 s
+
+ Dimensiune lista: 10000 
+
+Tip date: Random
+BubbleSort      | N=10000   | 0.13018300 s
+InsertionSort   | N=10000   | 0.04478000 s
+MergeSort       | N=10000   | 0.00153900 s
+QuickSort       | N=10000   | 0.00084200 s
+RadixSort       | N=10000   | 0.00181300 s
+
+Tip date: Sorted
+BubbleSort      | N=10000   | 0.07526500 s
+InsertionSort   | N=10000   | 0.00002900 s
+MergeSort       | N=10000   | 0.00094300 s
+QuickSort       | N=10000   | 0.14932200 s
+RadixSort       | N=10000   | 0.00143100 s
+
+Tip date: Reverse
+BubbleSort      | N=10000   | 0.15713700 s
+InsertionSort   | N=10000   | 0.09001100 s
+MergeSort       | N=10000   | 0.00095700 s
+QuickSort       | N=10000   | 0.10258500 s
+RadixSort       | N=10000   | 0.00178300 s
+
+Tip date: Almost Sorted
+BubbleSort      | N=10000   | 0.09002100 s
+InsertionSort   | N=10000   | 0.00606400 s
+MergeSort       | N=10000   | 0.00107000 s
+QuickSort       | N=10000   | 0.00165900 s
+RadixSort       | N=10000   | 0.00143800 s
+
+Tip date: Plateau
+BubbleSort      | N=10000   | 0.11816200 s
+InsertionSort   | N=10000   | 0.04086500 s
+MergeSort       | N=10000   | 0.00119900 s
+QuickSort       | N=10000   | 0.00601700 s
+RadixSort       | N=10000   | 0.00036900 s

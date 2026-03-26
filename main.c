@@ -95,7 +95,7 @@ void genAlmost(int *arr, int n) {
         int t = arr[idx1]; arr[idx1] = arr[idx2]; arr[idx2] = t;
     }
 }
-void genPlateau(int *arr, int n) 
+void genPlate(int *arr, int n) 
 { for (int i = 0; i < n; i++) arr[i] = rand() % 10; }
 
 void runExperiment(void (*sortFunc)(int*, int), char* algoName, int n, int type, FILE *f) {
@@ -108,7 +108,7 @@ void runExperiment(void (*sortFunc)(int*, int), char* algoName, int n, int type,
         if (type == 2) genReverse(orig, n);
     else 
           if (type == 3) genAlmost(orig, n);
-    else genPlateau(orig, n);
+    else genPlate(orig, n);
     clock_t start = clock();
     for (int i = 0; i < reps; i++) {
         memcpy(work, orig, n * sizeof(int));

@@ -129,10 +129,10 @@ int main() {
     int sizes[] = {10, 100, 1000, 10000}; 
     char* types[] = {"Random", "Sorted", "Reverse", "Almost Sorted", "Plateau"};
 
-    fprintf(f, "Rezultate experiment\n========================\n");
+    fprintf(f, "Rezultate\n");
     for (int s = 0; s < 4; s++) {
-        fprintf(f, "\n>>> Dimensiune lista: %d <<<\n", sizes[s]);
-        printf("\n>>> Dimensiune lista: %d <<<\n", sizes[s]);
+        fprintf(f, "\n Dimensiune lista: %d \n", sizes[s]);
+        printf("\n Dimensiune lista: %d \n", sizes[s]);
         for (int t = 0; t < 5; t++) {
             fprintf(f, "\nTip date: %s\n", types[t]);
             printf("\nTip date: %s\n", types[t]);
@@ -144,6 +144,6 @@ int main() {
         }
     }
     fclose(f);
-    printf("\nExperiment finalizat! Rezultatele sunt salvate in 'rezultate_sortare.txt'.\n");
+    printf("\nExperiment terminat. Rezultatele sunt salvate in 'rezultate_sortare.txt'.\n");
     return 0;
 }

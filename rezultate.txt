@@ -30,7 +30,7 @@ MergeSort       | N=10      | 0.00000064 s
 QuickSort       | N=10      | 0.00000024 s
 RadixSort       | N=10      | 0.00000041 s
 
-Tip date: Plateau
+Tip date: Plate
 BubbleSort      | N=10      | 0.00000012 s
 InsertionSort   | N=10      | 0.00000009 s
 MergeSort       | N=10      | 0.00000050 s
@@ -67,7 +67,7 @@ MergeSort       | N=100     | 0.00000616 s
 QuickSort       | N=100     | 0.00001045 s
 RadixSort       | N=100     | 0.00000730 s
 
-Tip date: Plateau
+Tip date: Plate
 BubbleSort      | N=100     | 0.00001247 s
 InsertionSort   | N=100     | 0.00000520 s
 MergeSort       | N=100     | 0.00000678 s
@@ -104,7 +104,7 @@ MergeSort       | N=1000    | 0.00011900 s
 QuickSort       | N=1000    | 0.00019300 s
 RadixSort       | N=1000    | 0.00010600 s
 
-Tip date: Plateau
+Tip date: Plate
 BubbleSort      | N=1000    | 0.00151800 s
 InsertionSort   | N=1000    | 0.00042800 s
 MergeSort       | N=1000    | 0.00012000 s
@@ -141,7 +141,7 @@ MergeSort       | N=10000   | 0.00107000 s
 QuickSort       | N=10000   | 0.00165900 s
 RadixSort       | N=10000   | 0.00143800 s
 
-Tip date: Plateau
+Tip date: Plate
 BubbleSort      | N=10000   | 0.11816200 s
 InsertionSort   | N=10000   | 0.04086500 s
 MergeSort       | N=10000   | 0.00119900 s

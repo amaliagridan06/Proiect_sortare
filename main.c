@@ -15,7 +15,6 @@ void bubbleSort(int *arr, int n) {
         }
     }
 }
-
 void insertionSort(int *arr, int n) {
     if (n > 50000) return;
     for (int i = 1; i < n; i++) {
@@ -142,17 +141,17 @@ void runExperiment(void (*sortFunc)(int*, int), char* algoName, int n, int type,
 
 int main() {
     srand(time(NULL));
-    FILE *f = fopen("rezultate_finale.txt", "w");
+    FILE *f = fopen("rezultate.txt", "w");
     if (f == NULL) return 1;
 
     long sizes[] = {100, 1000, 10000, 100000, 1000000, 10000000}; 
     char* types[] = {"Random", "Sorted", "Reverse", "Almost Sorted", "Plate"};
 
-    fprintf(f, "RAPORT SORTARE\n==============\n");
+    fprintf(f, "RAPORT SORTARE\n\n");
 
     for (int s = 0; s < 6; s++) {
         printf("\n>>> N = %ld\n", sizes[s]);
-        fprintf(f, "\n--- Dimensiune: %ld ---\n", sizes[s]);
+        fprintf(f, "\n Dimensiune: %ld \n", sizes[s]);
         for (int t = 0; t < 5; t++) {
             fprintf(f, "\nTip date: %s\n", types[t]);
             runExperiment(bubbleSort, "BubbleSort", sizes[s], t, f);
